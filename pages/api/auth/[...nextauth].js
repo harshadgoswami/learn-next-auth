@@ -1,7 +1,6 @@
 import NextAuth from "next-auth";
 import EmailProvider from "next-auth/providers/email";
 import { FirestoreAdapter } from "@next-auth/firebase-adapter";
-import { cert } from "firebase-admin/app";
 import admin from "firebase-admin";
 import serviceAccount from "/config/firebase.json";
 
